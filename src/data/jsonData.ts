@@ -1,13 +1,17 @@
 
 export interface Data {
-    userId?: string;
-    sessionId?: string;
-    event?: string;
     browser?: string;
+    department?: string;
+    event?: string;
+    errorText?: string;
+    origin?: string;
     target?: object;
+    tenantId?: number;
     timestamp: string;
     timezone?: string;
-    tenantId?: number;
+    type?: string;
+    sessionId?: string;
+    userId?: string;
 }
 
 // some bull shit
