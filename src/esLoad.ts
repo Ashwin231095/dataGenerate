@@ -38,7 +38,7 @@ const esClient = new elasticsearch.Client({
          out of ${data.length} items`
       );
     })
-    .catch(console.err);
+    .catch(console.error);
   };
 
   const test = async function test() {
