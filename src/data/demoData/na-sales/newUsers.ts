@@ -43,7 +43,6 @@ export const getData = (segmentValue, noOfUsers, region) => {
           timezone: region[Math.floor(Math.random() * region.length)]
         },
         {
-          event: '',
           userId: userId,
           timestamp: new Date(iteratorDate.getTime() + getRandomNumber(Math.floor(Math.random() * 240) + 1) * 60 * 1000).toISOString(),
           department: segmentValue,
